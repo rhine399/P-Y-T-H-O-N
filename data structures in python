@@ -1,0 +1,61 @@
+# lst = ['coke', 'sprite', 'pepsi', 'mojo', 'mirinda', 'prime']
+
+# print("Lenght of list:", len(lst))
+# print("First Element:", lst[3])
+# print("Last Element:", lst[-1])
+
+
+# lst.append('water')
+# print("Updated List :", lst)
+
+# lst.remove("mojo")
+
+# lst.sort()
+# print("Updated list:", lst)
+
+# lst.pop()
+# print("Sorted List:", lst)
+
+# lst.reverse()
+# print("Reversed List :", lst)
+
+# print("Multiplication on list :",lst*2)
+
+# lst = lst[:4]
+# print("Sliced List :", lst)
+
+# lst.clear()
+# print("Updated list :", lst)
+           
+rhine_er_dictionary={'name':"rhine", 'job': "student", "hobby":"stand up comdy" }
+
+# empty dictionary
+my_dict ={}
+
+# dictionary with integer keys
+rhine_er_dictionary = {1: 'apple', 2: 'ball'}
+rhine_er_dictionary = {'name': 'rhine', 1:[2,4,3]}
+
+
+#output: denver
+print(rhine_er_dictionary['name'])
+
+#update Value
+
+rhine_er_dictionary['job'] = "plumber"
+print(rhine_er_dictionary)
+
+# add item
+my_dict['address'] = 'Downtown'
+print(rhine_er_dictionary)
+
+# remove particular element
+print(rhine_er_dictionary)
+
+# remove all the elements
+rhine_er_dictionary.clear()
+print(rhine_er_dictionary)
+
+
+
+
