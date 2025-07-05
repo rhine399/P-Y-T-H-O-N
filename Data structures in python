@@ -1,0 +1,59 @@
+# # rhine_er_tuple
+# rhine_er_tuple = ()
+# print(rhine_er_tuple)
+
+# # Tuple having integers
+# rhine_er_tuple = (1,2,3)
+# print(rhine_er_tuple)
+
+# # tuple with mixed datatypes
+# rhine_er_tuple = (1, "hello",5.4)
+# print(rhine_er_tuple)
+
+# # nested tuple
+# n_tuple = ("mouse", [8,4,6], (1,2,3))
+# print(rhine_er_tuple)
+
+# # Accesing tuple elements using indexing
+# rhine_er_tuple = ('h','e','l','l','o')
+# print(rhine_er_tuple[0])
+# print(rhine_er_tuple[4])
+
+# # nested tuple
+# n_tuple = ("mouse", [8, 4 ,6], (1, 2 , 3))
+# # nested index
+# print(n_tuple[0][3])
+# print(n_tuple[1][1])
+
+# # Slicing
+# print("Sliced :", rhine_er_tuple[1:2])
+
+# # Iterating through tuple
+# for letter in (rhine_er_tuple):
+#     print("Hello", letter)
+
+# amar_set = {1,2,3,2,4,3,4,4}
+# print("Set  :" , amar_set)
+
+# set1 = amar_set
+# set2 = {2,4,4,6}
+
+# print("\nSet 1", set1)
+# print("Set 2", set2)
+# print("Difference")
+# print(set1.difference(set2))
+# print("Symmetric Difference")
+# print(set1.symmetric_difference(set2))
+
+setx = {"ami", "math"}
+sety = {"pari", "na"}
+print("Original set elements:")
+print(setx)
+print(sety)
+print("\nUnion of two said sets: ")
+setz = setx.union(sety)
+print(setz)
+
+print("\Intersection of two said sets:")
+setz = setx.intersection(sety)
+print(setz)
